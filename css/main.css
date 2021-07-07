@@ -13,7 +13,7 @@ nav
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2vh 0;
+  padding: 1rem 0;
   flex-wrap: wrap;
 }
 nav .logo-section
@@ -218,7 +218,7 @@ body
   display: none;
 }
 /*Media queries*/
-@media(min-width: 992px)
+@media(min-width: 805px)
 {
 nav .hamburger
 {
@@ -246,11 +246,13 @@ nav
 {
   width: 60%;
 }
-
-.hero
+}
+@media (min-width: 992px)
 {
-  background: #FFFFFF;
-  min-height: auto;
+  .hero
+  {
+    background: #FFFFFF;
+    min-height: auto;
   }
   .hero_textblock
   {
